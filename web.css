@@ -39,3 +39,18 @@ font-size:25px;
 body, html {
   height: 100%;
 }
+
+.Image1 {
+  /* image source */
+  background-image: url('sea.jpg');
+
+  /* height set to full */
+  height: 100%; 
+}
+
+/* for phones and tablets we can switch off the scroll to see the effect or use (background-size:100% 100%;). the maximum pixels of the screen is set */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
