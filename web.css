@@ -9,3 +9,18 @@ body {margin:0;}
   height:13%;
   
 }
+span{
+float: left;
+margin-top:0px;
+}
+
+
+.menubar a {
+  float:right;
+  display: block;
+  color: #f2f2f2;
+  text-align:center;
+  text-decoration: none;
+  padding:30px 50px;
+font-size:25px;
+}
