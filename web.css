@@ -46,6 +46,12 @@ body, html {
 
   /* height set to full */
   height: 100%; 
+
+ /* parallax effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 /* for phones and tablets we can switch off the scroll to see the effect or use (background-size:100% 100%;). the maximum pixels of the screen is set */
