@@ -447,7 +447,53 @@ font-size:30px;
 margin-top:200px;
 letter-spacing:2px;
 }
+.policy{
+margin-top:150px;
+}
 
+.policy hr{
+margin-left:auto;
+margin-right:auto;
+width:90%;
+margin-bottom:100px;
+border-top: dashed thin;
+margin-top:100px;
+}
+
+.policy ul li{
+display:inline;
+margin-left:250px;
+font-family:raleway;
+font-size:25px;
+
+}
+
+.copy ul li{
+display:inline;
+margin-left:250px;
+font-family:raleway;
+font-size:25px;
+
+}
+#or{
+margin-left:100px;
+margin-right:-120px;
+}
+#c{
+margin-left:500px;
+}
+#tel{
+font-family:ø;
+font-weight:normal;
+}
+.faq{
+margin-top:60px;
+margin-left:340px;
+}
+.policy ul li a{
+text-decoration:none;
+color:black;
+}
 
 
 
