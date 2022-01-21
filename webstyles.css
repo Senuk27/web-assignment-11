@@ -1,1 +1,111 @@
+*{
+   padding:0;
+   margin:0;
+}
 
+ body{
+ background:#000;
+}
+
+.container{
+ text-align:center;
+ position:absolute;
+ top:40%;
+ left:50%;
+ transform:translate(-50%,-50%);
+ width:100%;
+}
+
+ .container span{
+ 
+ text-transform: uppercase;
+ display:block;
+
+}
+
+.text1{
+ color: white;
+ font-size:100px;
+ font-weight: 7;
+ letter-spacing: 20px;
+ margin-bottom: 20px;
+ background: #9DBCC7;
+ position: relative;
+ animation: text 3s 1;
+ font-family:ø;
+}
+
+.text2{
+ font-size: 25px;
+letter-spacing:2px;
+ color:black;
+font-family:candara;
+  
+ 
+}
+
+@keyframes text{
+ 0%{
+   
+   color:black;
+   margin-bottom: -40px;
+   }
+
+ 30%{
+
+    letter-spacing:25px;
+    margin-bottom: -40px;
+    }
+
+ 85%{
+
+   letter-spacing: 8px;
+   margin-bottom:-40px;
+    }
+
+}
+
+
+body {margin:0;}
+
+.menu{
+  overflow: hidden;
+  background-color:#D8DEE3;
+  position:relative;
+  top:0;
+  width: 100%;
+  height:9%;
+  opacity:89%;
+}
+.menu a{
+  float:left;
+  display: block;
+  color: black;
+  text-align:center;
+  text-decoration: none;
+  margin-top:20px;
+  margin-left:40px;
+  margin-right:40px;
+font-size:17px;
+font-family:candara;
+letter-spacing:1px;
+}
+.logo{
+float:right;
+}
+#fb{
+margin-top:7px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:1px;
+}
+#tw{
+margin-top:12px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:15px;
+}
+#ig{
+margin-top:10px;
+margin-left:1px;
+}
