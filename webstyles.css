@@ -109,3 +109,53 @@ margin-right:15px;
 margin-top:10px;
 margin-left:1px;
 }
+
+.Img{
+background-image: url('beach.jpg');
+height:100%;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.block1{
+background-color:#D9E0E2;
+height:300px;
+width:100%;
+position:relative;
+padding-top:100px;
+}
+.box1{
+height:400px;
+background-color:#E6EAEB;
+width:500px;
+z-index:99;
+left:0;
+right:0;
+margin:0 auto;
+text-align:center;
+padding:80px;
+position :absolute;
+}
+
+.gr{
+border:solid;
+padding:20px;
+font-size:34px;
+font-family:Roboto;
+font-weight:bold;
+}
+
+.para1{
+font-size:23px;
+padding:10px;
+font-family:Raleway;
+text-transform:uppercase;
+line-height:170%;
+letter-spacing:1px;
+
+
+
+}
+
+
