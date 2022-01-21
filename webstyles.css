@@ -400,7 +400,53 @@ padding-top:50px;
 margin-left:-150px;
 line-height:170%;
 }
+.block5{
+height:1850px;
+width:100%;
+background-color:#D9E0E2;
+padding-top:350px;
+}
+.block5 h1{
+font-family:ø;
+font-size:130px;
+font-weight:normal;
+text-align:center;
+letter-spacing:30px;
+}
+.follow {
+text-align:center;
+font-family:raleway;
+font-size:30px;
+margin-top:200px;
+}
+.follow p{
+margin-bottom:20px;
+}
 
+#tt{
+margin-left:0px;
+margin-top:10px;
+padding-bottom:30px;
+}
+#ff{
+margin-top:-10px;
+padding-top:10px;
+}
+
+#address{
+text-align:center;
+font-family:raleway;
+font-size:30px;
+margin-top:200px;
+}
+
+#gmail{
+text-align:center;
+font-family:raleway;
+font-size:30px;
+margin-top:200px;
+letter-spacing:2px;
+}
 
 
 
