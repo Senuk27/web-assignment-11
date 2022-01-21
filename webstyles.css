@@ -204,6 +204,28 @@ height:100%;
   background-size:cover;
 }
 
+.aware{
+padding-top:170px;
+background-color:#D9E0E2;
+height:300px;
+width:100%;
+text-align:center;
+
+
+}
+.aw{
+border:solid;
+font-size:100px;
+font-family:Raleway;
+font-weight:bold;
+padding:40px;
+padding-left:8%;
+padding-right:8%;
+margin-bottom:70px;
+letter-spacing:3px;
+}
+
+
 
 
 
