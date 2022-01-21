@@ -157,5 +157,53 @@ letter-spacing:1px;
 
 
 }
+.Img2{
+background-image: url('image2.jpg');
+height:100%;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.block2{
+background-color:#D9E0E2;
+height:750px;
+width:100%;
+}
+.obj{
+margin:0;
+font-family:Raleway;
+font-size:80px;
+text-align:center;
+font-weight:normal;
+padding-top:70px;
+}
+.para2{
+font-family:Raleway;
+font-size:30px;
+padding-left:300px;
+padding-right:300px;
+line-height:170%;
+letter-spacing:1px;
+}
+.list1{
+font-size:30px;
+font-family:raleway;
+padding-left:600px;
+line-height:170%;
+letter-spacing:1px;
+}
+
+.image3{
+background-image: url('image3.jpg');
+height:100%;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
 
 
