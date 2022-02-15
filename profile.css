@@ -1,1 +1,27 @@
-
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    @font-face {
+        src: url("font/Questrial-Regular.ttf");
+        font-family: "Quicksand";
+    }
+    /********* navigation bar css start ***********/
+    
+    .navbar {
+        background-color: rgb(237, 237, 237);
+        display: flex;
+        padding: 10px;
+    }
+    /* nav1 css */
+    
+    .navbar .nav1 {
+        width: 80%;
+    }
+    
+    .navbar .nav1 .div1 ul {
+        display: flex;
+        list-style: none;
+    }
