@@ -25,3 +25,46 @@
         display: flex;
         list-style: none;
     }
+  .navbar .nav1 .div1 ul li {
+        margin-left: 30px;
+        padding: 18px;
+        text-transform: uppercase;
+        font-weight: none;
+        font-family:candara;
+        position: relative;
+    }
+  .navbar .nav1 .div1 ul li a {
+        text-decoration: none;
+        color: black;
+        position: relative;
+        display: inline-block;
+    }
+    
+.navbar .nav1 .div1 ul li a::after {
+        content: '';
+        position: absolute;
+        left: 1px;
+        bottom: -5px;
+        width: 0;
+        height: 3px;
+        background-color: rgb(148, 7, 7);
+        transition: 1.01s;
+    }
+
+    .navbar .nav1 .div1 ul:hover li:hover a::after {
+        width: 90%;
+    }
+    /* nav1 div2 css */
+    
+    .navbar .nav1 .div2 {
+        padding: 9px 0px 9px 17px;
+        margin-left: 28px;
+        font-family: "Open Sans";
+    }
+    /* nav2 css */
+.navbar .nav2 {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
