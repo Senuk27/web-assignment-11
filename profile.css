@@ -132,3 +132,86 @@
         background: transparent;
 	 
     }
+.main_content .profile-div {
+        position: relative;
+        text-align: center;
+        margin: auto;
+        width: 58%;
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        background-color: rgb(255, 255, 255, 0.87);
+        padding: 15px 0px 0px 0px;
+        overflow: hidden;
+	
+    }
+    
+    .main_content .profile-div .profile-title {
+        margin-top: 15px;
+        font-family: "Open Sans";
+        font-weight: bold;
+    }
+    
+    .main_content .profile-div .profile-img {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    .main_content .profile-div .profile-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .main_content .profile-div .profile-img input {
+        position: absolute;
+        display: none;
+    }
+    
+    .main_content .profile-div .profile-img label {
+        position: absolute;
+        margin-top: 94px;
+        margin-left: -65px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    
+    .main_content .profile-div .profile-info {
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 140px;
+        justify-content: center;
+        text-align: start;
+        font-family: "Open Sans";
+        font-size: 19px;
+        line-height: 32px;
+    }
+
+	
+    .main_content .profile-div .profile-info #a{
+	font-size:16px;		
+	font-family: Raleway;
+        letter-spacing:1px;
+	}
+    
+    .main_content .profile-div .profile-info i {
+        position: absolute;
+        margin: -32px 0px 0px 50px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .main_content .profile-div .profile-info p:nth-child(1) {
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    
+    .main_content .profile-div .profile-info p:nth-child(4) {
+        font-size: 16px;
+        font-weight: bolder;
+    }
