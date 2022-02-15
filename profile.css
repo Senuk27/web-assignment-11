@@ -215,3 +215,54 @@
         font-size: 16px;
         font-weight: bolder;
     }
+
+.main_content .profile-div .details {
+        position: absolute;
+        margin: 22px 0px 0px 100px;
+        color: rgb(211, 211, 211);
+        width: 49%;
+        border-radius: 10px;
+        padding: 25px 5px 25px 5px;
+        line-height: 28px;
+        font-family: raleway;
+        background-color: rgb(12, 12, 12);
+        z-index: 1;
+	letter-spacing:1px;
+	
+    }
+    .main_content .profile-div .details p{
+	margin-left:10px;
+}
+    
+    .main_content .profile-div .shape {
+        background-color: rgb(94, 129, 153, 0.8);
+        margin-top: 20px;
+        width: 100%;
+        height: 190px;
+        clip-path: polygon(0 0, 33% 72%, 100% 100%, 0% 100%);
+        z-index: -1;
+    }
+    /*** main div 2 *****/
+    
+    .main_content .main-div2 {
+        width: 50%;
+    }
+    
+    .main-div2 .div-1 .profile-div {
+        margin-top: 25px;
+        width: 70%;
+    }
+    
+    .main-div2 .div-1 .profile-div .details {
+        background: none;
+        color: black;
+        text-align: start;
+    }
+    
+    .main-div2 .div-1 .profile-div .details img {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        overflow: hidden;
+        margin: 7px 0px 0px -20px;
+    }
