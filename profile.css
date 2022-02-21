@@ -19,6 +19,7 @@
     
     .navbar .nav1 {
         width: 80%;
+	    letter-spacing:1px;
     }
     
     .navbar .nav1 .div1 ul {
