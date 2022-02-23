@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    
+}
+body{
+    
+    font-family:"Bahnschrift Light";
+}
+.head{
+    background-color: rgb(167, 164, 164);
+}
+h4{
+
+text-align: center;
+font-family: none;
+font-size:17px;
+
+}
+h2{
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: "Century Gothic";
+    font-weight:none;
+    margin-bottom: 20px;
+
+}
+h3{
+    margin-left:30px;
+    letter-spacing: 1px;
+
+}
+
+p{
+    margin: 30px;
+    letter-spacing: 1px;
+    font-size: 17px;
+    
+}
+ul li{
+    font-size: 18px;
+}
