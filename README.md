@@ -1,3 +1,4 @@
+Dear sir, Please find the index.php file in phpprog/home folder. From there you can access to other pages easily.
 # web-assignment-11
 
 Web Assignment Group-11
